@@ -1,6 +1,5 @@
 (function () {
   'use strict';
-  if (/[?&]b(=|&|$)/.test(location.search)) document.documentElement.classList.add('kier-b');
 
   var top = document.getElementById('top');
   function cien() { top.classList.toggle('cien', window.scrollY > 8); }

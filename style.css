@@ -18,7 +18,7 @@ p{margin:0}
 .skip{position:absolute;left:-999px;top:8px;background:#fff;padding:8px 12px;z-index:100}
 .skip:focus{left:8px}
 .wrap{width:min(var(--wrap),100% - 48px);margin:0 auto}
-.dane,.etapy b,.linijka{font-variant-numeric:tabular-nums}
+.linijka{font-variant-numeric:tabular-nums}
 svg use{pointer-events:none}
 
 /* przyciski */
@@ -295,13 +295,3 @@ svg use{pointer-events:none}
   .top-tel svg{width:22px;height:22px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
-
-/* kierunek B (porównanie, ?b) */
-.kier-b .hero{grid-template-columns:minmax(0,1fr);position:relative}
-.kier-b .hero-foto{grid-column:1;grid-template-columns:1fr}
-.kier-b .hf-osoba{display:none}
-.kier-b .hf-biuro img{object-position:50% 45%}
-.kier-b .hero-foto::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,15,18,.82),rgba(15,15,18,.35))}
-.kier-b .hero-in{position:relative;z-index:2;color:#fff}
-.kier-b .hero h1,.kier-b .lead,.kier-b .hero-adres,.kier-b .link-strz{color:#fff}
-.kier-b .hero-kreska{color:#fff}
