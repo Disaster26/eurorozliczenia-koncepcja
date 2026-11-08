@@ -6,26 +6,38 @@
 <title>Biuro Rachunkowe Euro Kraków - księgowość, kadry i płace, podatki | Euro-Rozliczenia</title>
 <meta name="description" content="Biuro Rachunkowo-Księgowe Euro, Kraków ul. Mrozowa 29. Od 2008 roku księgi handlowe, KPiR, ryczałt, VAT, CIT, ZUS, kadry i płace dla firm - także transportowych, budowlanych i produkcyjnych.">
 <meta name="robots" content="noindex,nofollow">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#1B1D20">
 <link rel="icon" href="img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="img/biuro-recepcja-700.webp" imagesrcset="img/biuro-recepcja-700.webp 700w, img/biuro-recepcja-1123.webp 1123w" imagesizes="(max-width:760px) 50vw, 30vw">
+<link rel="preload" as="image" href="img/b-recepcja-700.webp" imagesrcset="img/b-recepcja-700.webp 700w, img/b-recepcja-1200.webp 1200w" imagesizes="(max-width:760px) 50vw, 30vw">
 <link rel="stylesheet" href="style.css">
+<style>
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
 </head>
 <body>
 <a class="skip" href="#tresc">Przejdź do treści</a>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <symbol id="kreska" viewBox="0 0 132 14"><path d="M2 9.5C22 4 38 3.2 58 6.6s44 5 64-1.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="127.5" cy="4.6" r="3" fill="#F50000"/></symbol>
+  <symbol id="kreska" viewBox="0 0 132 14"><path d="M2 9.5C22 4 38 3.2 58 6.6s44 5 64-1.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="127.5" cy="4.6" r="3" fill="#C9A45E"/></symbol>
   <symbol id="tel" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z" fill="currentColor"/></symbol>
   <symbol id="strz" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
 </svg>
 
 <header class="top" id="top">
   <div class="top-in">
-    <a class="logo" href="#top" aria-label="Biuro Rachunkowo-Księgowe Euro - strona główna"><img src="img/logo-euro.svg" width="104" height="49" alt="EURO"><span>Biuro<br>Rachunkowo-Księgowe</span></a>
+    <a class="logo" href="#top" aria-label="Biuro Rachunkowo-Księgowe Euro - strona główna"><img src="img/logo-euro-zlote.svg" width="104" height="49" alt="EURO"><span>Biuro<br>Rachunkowo-Księgowe</span></a>
     <nav class="nav" aria-label="Menu główne"><a href="#dla-kogo">Dla kogo</a><a href="#zakres">Zakres obsługi</a><a href="#wspolpraca">Współpraca</a><a href="#zespol">Zespół</a><a href="#faq">Pytania</a><a href="#kontakt">Kontakt</a></nav>
     <a class="top-tel" href="tel:+48533177433"><svg aria-hidden="true"><use href="#tel"/></svg><span>533 177 433</span></a>
     <a class="btn top-cta" href="#kontakt">Umów rozmowę</a>
@@ -37,8 +49,10 @@
       <a class="btn" href="#kontakt">Umów rozmowę</a>
       <a href="tel:+48533177433">tel. 533 177 433</a>
       <a href="tel:+48695644932">tel. 695 644 932</a>
+      <a href="tel:+48790299056">tel. 790 299 056</a>
+      <a href="tel:+48123070766">tel. 12 307 07 66</a>
       <a href="mailto:biuro@euro-rozliczenia.pl">biuro@euro-rozliczenia.pl</a>
-      <p>ul. Mrozowa 29, Kraków · pon.-pt. 7:00-16:00</p>
+      <p>ul. Mrozowa 29, Kraków<br>pon.-czw. 7:00-16:00 · piątek: praca wewnętrzna, w pilnych sprawach prosimy o wiadomość lub wizytę w biurze</p>
     </div>
   </div>
 </header>
@@ -48,7 +62,7 @@
 <section class="hero" aria-label="Biuro Rachunkowo-Księgowe Euro">
   <div class="hero-foto">
     <figure class="hf hf-biuro">
-      <img src="img/biuro-recepcja-700.webp" srcset="img/biuro-recepcja-700.webp 700w, img/biuro-recepcja-1123.webp 1123w" sizes="(max-width:760px) 50vw, 30vw" width="1123" height="1500" alt="Recepcja biura Euro przy ul. Mrozowej, w tle regały z segregatorami klientów" fetchpriority="high">
+      <img src="img/b-recepcja-700.webp" srcset="img/b-recepcja-700.webp 700w, img/b-recepcja-1200.webp 1200w" sizes="(max-width:760px) 50vw, 30vw" width="1200" height="1600" alt="Recepcja biura Euro przy ul. Mrozowej: lada, antracytowe ściany i złoty obraz" fetchpriority="high">
     </figure>
     <figure class="hf hf-osoba">
       <img src="img/barbara-hero-800.webp" width="800" height="1000" alt="Barbara Kwiatkowska, założycielka i główna księgowa biura Euro" fetchpriority="high">
@@ -76,22 +90,22 @@
     </div>
     <div class="branze" data-tor>
       <article class="branza branza-glowna">
-        <svg class="ik" viewBox="0 0 64 40" aria-hidden="true"><path d="M3 30V9h33v21M36 15h12l9 9v6h-4M36 30h11M3 30h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="14" cy="31" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="51" cy="31" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M40 16v8h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="58.5" cy="7" r="2.6" fill="#F50000"/></svg>
+        <svg class="ik" viewBox="0 0 64 40" aria-hidden="true"><path d="M3 30V9h33v21M36 15h12l9 9v6h-4M36 30h11M3 30h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="14" cy="31" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="51" cy="31" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M40 16v8h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="58.5" cy="7" r="2.6" fill="#C9A45E"/></svg>
         <h3>Transport, logistyka i przewóz osób</h3>
         <p>Firmy transportowe i spedycyjne, właściciele flot oraz przewoźnicy jeżdżący z aplikacjami Uber i Bolt. Znamy tempo tej branży i zmienną liczbę dokumentów z miesiąca na miesiąc - pomagamy zarówno na starcie, jak i przy dużej flocie.</p>
       </article>
       <article class="branza">
-        <svg class="ik" viewBox="0 0 64 40" aria-hidden="true"><path d="M6 37h52M12 37V18h14v19M30 37V8h18v29M34 14h4M34 20h4M34 26h4M42 14h2M42 20h2M42 26h2M16 24h6M16 30h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="58.5" cy="7" r="2.6" fill="#F50000"/></svg>
+        <svg class="ik" viewBox="0 0 64 40" aria-hidden="true"><path d="M6 37h52M12 37V18h14v19M30 37V8h18v29M34 14h4M34 20h4M34 26h4M42 14h2M42 20h2M42 26h2M16 24h6M16 30h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="58.5" cy="7" r="2.6" fill="#C9A45E"/></svg>
         <h3>Budownictwo i deweloperzy</h3>
         <p>Rozliczamy koszty, materiały i podwykonawców na każdym etapie inwestycji, a dokumentację prowadzimy zgodnie z planem budowy. W tej branży precyzja i terminy to podstawa.</p>
       </article>
       <article class="branza">
-        <svg class="ik" viewBox="0 0 64 40" aria-hidden="true"><path d="M4 37h56M6 37V20l12 7v-7l12 7v-7l12 7V8h8v29" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 32h4M24 32h4M36 32h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="58.5" cy="7" r="2.6" fill="#F50000"/></svg>
+        <svg class="ik" viewBox="0 0 64 40" aria-hidden="true"><path d="M4 37h56M6 37V20l12 7v-7l12 7v-7l12 7V8h8v29" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 32h4M24 32h4M36 32h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="58.5" cy="7" r="2.6" fill="#C9A45E"/></svg>
         <h3>Produkcja, import i eksport</h3>
         <p>Analiza kosztów, rozliczanie pracowników, obsługa importu i eksportu, VAT-UE i OSS. Pomagamy porządkować procesy i wspieramy inwestycje zakładu.</p>
       </article>
       <article class="branza">
-        <svg class="ik" viewBox="0 0 64 40" aria-hidden="true"><path d="M8 37V16h40v21M4 16l6-10h36l6 10M8 16h44M22 37V25h12v12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="58.5" cy="7" r="2.6" fill="#F50000"/></svg>
+        <svg class="ik" viewBox="0 0 64 40" aria-hidden="true"><path d="M8 37V16h40v21M4 16l6-10h36l6 10M8 16h44M22 37V25h12v12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="58.5" cy="7" r="2.6" fill="#C9A45E"/></svg>
         <h3>Małe i średnie firmy z innych branż</h3>
         <p>Usługi, handel, gabinety, przedszkola, spółki rodzinne. Każdą firmę najpierw poznajemy i dopiero potem proponujemy zakres - nie dajemy wszystkim tego samego pakietu.</p>
       </article>
@@ -108,7 +122,7 @@
         <p>Księgowość, kadry i formalności w jednym biurze. Nie musisz szukać osobno księgowej, kadrowej i prawnika - z radcą prawnym, specjalistą BHP i doradcą podatkowym współpracujemy na stałe.</p>
       </div>
       <figure class="zakres-foto">
-        <img src="img/biuro-stanowiska-700.webp" srcset="img/biuro-stanowiska-700.webp 700w, img/biuro-stanowiska-1123.webp 1123w" sizes="(max-width:980px) 92vw, 34vw" width="1123" height="1500" alt="Stanowiska księgowych w biurze Euro" loading="lazy" decoding="async">
+        <img src="img/b-stanowiska-700.webp" srcset="img/b-stanowiska-700.webp 700w, img/b-stanowiska-1200.webp 1200w" sizes="(max-width:980px) 92vw, 34vw" width="1200" height="1600" alt="Stanowiska księgowych w biurze Euro" loading="lazy" decoding="async">
       </figure>
     </div>
     <div class="ksiega">
@@ -191,9 +205,9 @@
   <div class="wrap">
     <div class="zespol-head">
       <div class="sek-head">
-        <h2>Jedenaście osób, jedno biuro na Mrozowej</h2>
+        <h2>Dziesięć osób, jedno biuro na Mrozowej</h2>
         <svg class="kreska" aria-hidden="true"><use href="#kreska"/></svg>
-        <p>Twoje księgi prowadzą konkretne osoby, które znasz z imienia. Biurem kieruje Barbara Kwiatkowska, założycielka i główna księgowa, specjalistka od ksiąg handlowych i rachunkowości zarządczej. W 2025 roku minęło 17 lat działalności biura.</p>
+        <p>Twoje księgi prowadzą konkretne osoby, które znasz z imienia. Biurem kieruje Barbara Kwiatkowska, założycielka i główna księgowa, specjalistka od ksiąg handlowych i rachunkowości zarządczej. W 2025 roku minęło 17 lat działalności biura. Kwalifikacje do prowadzenia usług księgowych potwierdza Certyfikat Księgowy Centrum Informacji Księgowej (nr 75679/2019).</p>
       </div>
       <div class="tor-strz" aria-hidden="false">
         <button type="button" class="ts ts-l" data-cel="zespol-tor" data-kier="-1" aria-label="Poprzednie osoby"><svg aria-hidden="true"><use href="#strz"/></svg></button>
@@ -211,7 +225,6 @@
       <figure class="osoba"><img src="img/dorota-nowak-480.webp" srcset="img/dorota-nowak-480.webp 480w, img/dorota-nowak-800.webp 800w" sizes="(max-width:760px) 64vw, 280px" width="800" height="1000" alt="Dorota Nowak" loading="lazy"><figcaption><b>Dorota Nowak</b>Asystentka ds. kadr i płac</figcaption></figure>
       <figure class="osoba"><img src="img/patrycja-latala-480.webp" srcset="img/patrycja-latala-480.webp 480w, img/patrycja-latala-800.webp 800w" sizes="(max-width:760px) 64vw, 280px" width="800" height="1000" alt="Patrycja Bielawska-Latała" loading="lazy"><figcaption><b>Patrycja Bielawska-Latała</b>Asystentka ds. dokumentów księgowych</figcaption></figure>
       <figure class="osoba"><img src="img/gabriela-niemiec-480.webp" srcset="img/gabriela-niemiec-480.webp 480w, img/gabriela-niemiec-800.webp 800w" sizes="(max-width:760px) 64vw, 280px" width="800" height="1000" alt="Gabriela Niemiec" loading="lazy"><figcaption><b>Gabriela Niemiec</b>Asystentka ds. dokumentów księgowych</figcaption></figure>
-      <figure class="osoba"><img src="img/anna-dziedzic-480.webp" srcset="img/anna-dziedzic-480.webp 480w, img/anna-dziedzic-800.webp 800w" sizes="(max-width:760px) 64vw, 280px" width="800" height="1000" alt="Anna Dziedzic" loading="lazy"><figcaption><b>Anna Dziedzic</b>Asystentka ds. dokumentów księgowych</figcaption></figure>
     </div>
 
     <div class="biuro">
@@ -221,10 +234,14 @@
         <footer>Zasada, według której pracuje biuro Euro</footer>
       </blockquote>
       <div class="galeria" data-tor aria-label="Zdjęcia biura">
-        <figure><img src="img/biuro-lada-700.webp" width="1123" height="1500" alt="Lada recepcji i stanowiska w biurze" loading="lazy"><figcaption>Recepcja</figcaption></figure>
-        <figure><img src="img/biuro-17lat-700.webp" width="1123" height="1500" alt="Dyplom 17 lat działalności Biura Rachunkowego Euro" loading="lazy"><figcaption>17 lat działalności, 2025</figcaption></figure>
-        <figure><img src="img/biuro-sala-700.webp" width="1123" height="1500" alt="Wejście do sali spotkań w biurze" loading="lazy"><figcaption>Sala spotkań</figcaption></figure>
-        <figure><img src="img/biuro-wejscie-700.webp" width="1200" height="1800" alt="Wejście do biura i recepcja" loading="lazy"><figcaption>ul. Mrozowa 29</figcaption></figure>
+        <figure><img src="img/b-wejscie-700.webp" width="1200" height="1600" alt="Wejście do biura: złota donica, świece i zielona roślina" loading="lazy" decoding="async"><figcaption>Wejście</figcaption></figure>
+        <figure><img src="img/b-lada-700.webp" width="1200" height="1600" alt="Lada recepcji przy antracytowej ścianie ze złotym obrazem" loading="lazy" decoding="async"><figcaption>Recepcja</figcaption></figure>
+        <figure><img src="img/b-poczekalnia-700.webp" width="1200" height="1600" alt="Poczekalnia z czarnymi fotelami, na ścianie dyplom 17 lat działalności" loading="lazy" decoding="async"><figcaption>Poczekalnia</figcaption></figure>
+        <figure><img src="img/biuro-17lat-700.webp" width="1123" height="1500" alt="Dyplom 17 lat działalności Biura Rachunkowego Euro" loading="lazy" decoding="async"><figcaption>17 lat działalności, 2025</figcaption></figure>
+        <figure><img src="img/b-pokoj-700.webp" width="1200" height="1600" alt="Stanowiska pracy księgowych przy oknie" loading="lazy" decoding="async"><figcaption>Stanowiska księgowych</figcaption></figure>
+        <figure><img src="img/b-gabinet-700.webp" width="1200" height="1600" alt="Biurko w gabinecie na tle złotego obrazu" loading="lazy" decoding="async"><figcaption>Gabinet</figcaption></figure>
+        <figure><img src="img/b-archiwum-700.webp" width="1200" height="1600" alt="Regał z segregatorami klientów" loading="lazy" decoding="async"><figcaption>Archiwum dokumentów</figcaption></figure>
+        <figure><img src="img/b-drzwi-700.webp" width="1200" height="1600" alt="Drzwi biura z tabliczką EURO" loading="lazy" decoding="async"><figcaption>ul. Mrozowa 29</figcaption></figure>
       </div>
     </div>
   </div>
@@ -260,7 +277,7 @@
         <div><dt>Telefon</dt><dd><a class="duzy" href="tel:+48533177433">533 177 433</a><a href="tel:+48695644932">695 644 932</a><a href="tel:+48790299056">790 299 056</a><a href="tel:+48123070766">12 307 07 66</a></dd></div>
         <div><dt>E-mail</dt><dd><a href="mailto:biuro@euro-rozliczenia.pl">biuro@euro-rozliczenia.pl</a></dd></div>
         <div><dt>Biuro</dt><dd>ul. Mrozowa 29<br>31-752 Kraków</dd></div>
-        <div><dt>Godziny</dt><dd>poniedziałek - piątek<br>7:00 - 16:00</dd></div>
+        <div class="dane-godz"><dt>Godziny</dt><dd>poniedziałek - czwartek<br>7:00 - 16:00<small>W piątek biuro pracuje wewnętrznie. W pilnych sprawach prosimy o wiadomość lub wizytę w biurze.</small></dd></div>
       </dl>
       <div class="mapa">
         <iframe title="Mapa dojazdu - ul. Mrozowa 29, Kraków" src="https://www.google.com/maps?q=Mrozowa+29,+Krak%C3%B3w&amp;z=15&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -291,12 +308,12 @@
   <div class="wrap">
     <div class="st-gora">
       <div class="st-marka">
-        <img src="img/logo-euro-biale.svg" width="110" height="52" alt="EURO" loading="lazy">
+        <img src="img/logo-euro-zlote.svg" width="110" height="52" alt="EURO" loading="lazy">
         <p>Biuro Rachunkowo-Księgowe Euro. Księgowość, kadry i płace, podatki i wsparcie w prowadzeniu firmy. Kraków, od 2008 roku.</p>
       </div>
       <div class="st-kol">
         <h4>Kontakt</h4>
-        <a href="tel:+48533177433">533 177 433</a><a href="tel:+48695644932">695 644 932</a><a href="mailto:biuro@euro-rozliczenia.pl">biuro@euro-rozliczenia.pl</a><span>ul. Mrozowa 29, 31-752 Kraków</span><a href="https://www.facebook.com/ksiegowosceuro" rel="noopener">Facebook</a>
+        <a href="tel:+48533177433">533 177 433</a><a href="tel:+48695644932">695 644 932</a><a href="tel:+48790299056">790 299 056</a><a href="tel:+48123070766">12 307 07 66</a><a href="mailto:biuro@euro-rozliczenia.pl">biuro@euro-rozliczenia.pl</a><span>ul. Mrozowa 29, 31-752 Kraków</span><span>pon.-czw. 7:00-16:00<br>piątek: praca wewnętrzna</span><a href="https://www.facebook.com/ksiegowosceuro" rel="noopener">Facebook</a>
       </div>
       <div class="st-kol st-dane">
         <h4>Dane formalne</h4>
